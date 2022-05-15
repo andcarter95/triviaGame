@@ -39,9 +39,9 @@ h1 {
 
 }
 
-.subCatagoryTrack {
+/* .subCatagoryTrack {
     /* Use this to create space between image/number/percent in catagoryTrack  */
-}
+
 
 .catagoryTrack{
     display: flex;
@@ -50,11 +50,13 @@ h1 {
     flex-direction: column;
     flex: 1;
     text-align: center;
+    margin-top: 0em;
 }
 
 .catagoryTitle {
     font-family: 'Koulen', cursive;
     font-size: 2em;
+    margin-top: 0em;
 }
 
 .questionAnswer{
@@ -67,10 +69,12 @@ h1 {
 
 .question {
     flex-grow: 4;
+    flex-basis: 100%;
 }
 
 .answer {
     flex-grow: 2;
+    flex-basis: 49%;
 }
 
 .roundGlobalTracking{
@@ -101,4 +105,9 @@ h1 {
     font-family: 'Koulen', cursive;
     font-size: 2em;
     line-height: 1.0;
+}
+
+h3 {
+    font-weight: normal;
+    margin-top: 0em;
 }
