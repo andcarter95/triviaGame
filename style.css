@@ -61,20 +61,17 @@ h1 {
 
 .questionAnswer{
     display: flex;
-    justify-content: space-between;
     height: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex: 4;
 }
 
 .question {
-    flex-grow: 4;
-    flex-basis: 100%;
+    flex-basis: 40%;
 }
 
 .answer {
-    flex-grow: 2;
-    flex-basis: 49%;
+    flex-basis: 60%;
 }
 
 .roundGlobalTracking{
