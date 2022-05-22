@@ -10,7 +10,7 @@ const qaContent = [
          {text: '1964', correct: false }
       ],
     catagory: "sports"},
-    {question: "In what state did the first official American baseball game take place?",
+    {question: "In what state did the first official American basketball game take place?",
     answers: [
         {text: 'New York', correct: false },
         {text: 'Georgia', correct: false },
@@ -54,7 +54,7 @@ const qaContent = [
     // {question22: What was the first country to give women the right to vote?, A: England, B: France, C: Portugal, D: New Zealand, correct answer: "D", catagory: "history"}
     // {question23: Which US president is featured on the two dollar bill?, A: John Adams, B: Williamm Taft, C: Thomas Jefferson, D: Harry Truman, correct answer: "C", catagory: "history"}
     // {question24: In which country the Adolf Hitler was born?, A: Austria, B: Germany, C: Poland, D: Russia, correct answer: "A", catagory: "history"}
-    {question: 'Hg is the chemical symbol of which element?',
+    {question: 'What is the chemical symbol of Mercury?',
     answers: [
         {text: 'Ca', correct: false},
         {text: 'Me', correct: false},
