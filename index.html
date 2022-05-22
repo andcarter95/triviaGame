@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <script src="apps.js"></script>
+    <script defer src="apps.js"></script>
     <div class="container">
         <h1 class="dailyTrivia">Daily Trivia</h1>
             <div class="column">
@@ -48,15 +48,21 @@
                         <p class="catagoryPercent">75%</p>
                     </div>
                 </div>
-                <div class="questionAnswer">
-                    <div class="question">
-                        <p>Question about things????</p>
-                    </div>
-                    <div class="answer">
-                        <p>A</p>
-                        <p>B</p>
-                        <p>C</p>
-                        <p>D</p>
+                <div class="questionCard">
+                    <div id="questionAnswer" class="hide" >
+                        <div id="question">
+                            Question
+                        </div>
+                        <div id="answerButtons" class="answerGrid">
+                            <button class="btn">Answer 1</button>
+                            <button class="btn">Answer 2</button>
+                            <button class="btn">Answer 3</button>
+                            <button class="btn">Answer 4</button>
+                        </div>
+                        <div class="controls">
+                            <button id="startButton" class="startButton btn">Start</button>
+                            <button id="nextButton" class="nextButton btn hide">Next</button>
+                        </div>
                     </div>
                 </div>
                 <div class="roundGlobalTracking">
